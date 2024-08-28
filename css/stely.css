@@ -1,0 +1,133 @@
+/******************************************************/
+/**TAGS PADRÃO**/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/**Pagina ADMIN INDEX **/
+
+.bloco{
+    display: flex;
+}
+
+.conteudo{
+    background:#357ae8;
+    width: 100%;
+    height: 60px;
+}
+
+.conteudo{
+    display: flex;
+    align-content: space-between;
+}
+
+.conteudo ul{
+    display: flex;
+}
+
+.conteudo li {
+    padding: 1.8em
+}
+.conteudo li a{
+    text-decoration: none;
+    color: black;
+}
+.conteudo li{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*******************************************/
+.BOX{
+    width: 100%;
+    height: 900px;
+    background: cornflowerblue;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+ 
+}
+
+
+.box th {
+    background-color: #abbde9;
+    width: 150px;
+    height:40px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.box tr{
+    width: 150%;
+    height: 40px;
+    text-align: center;
+    background-color:aliceblue;
+}
+
+.box td a{
+    text-decoration: none;
+    color:blueviolet;
+}
+
+.box h2{
+    text-align: center;
+    color: azure;
+    padding: 0.2em;
+}
+
+/********************/
+/*Formularios**/
+.formulario input{
+    width: 250px;
+    height: 20px;
+
+}
+
+.blocoForm{
+    background-color: aliceblue;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.col-md-4{
+    width: 50px;
+    height: 50px;
+}
+
+.col-md-3{
+    width: 50px;
+    height: 50px;
+    height: 4%;
+}
+.col-md-6{
+    width: 50px;
+    height: 50px;
+    height: 4em;
+}
+
+.col-12 button{
+    width: 190px;
+    height: 25px;
+}
+
+.btnCadast a{
+    color: antiquewhite;
+}
+
+.col-md-1{
+    height: 3em;
+}
+.col-md-1  select{
+width: 210;
+}
